@@ -1,0 +1,17 @@
+rect 0 0 800 800 green
+circle 400 430 30 orange
+rect 385 460 10 20 orange
+rect 405 460 10 20 orange
+rect 370 430 10 15 orange
+rect 420 430 10 15 orange
+circle 400 370 40 orange
+circle 400 370 50 gold
+line 350 370 370 370 darkorange
+line 430 370 450 370 darkorange
+line 400 320 400 340 darkorange
+circle 390 365 5 white
+circle 410 365 5 white
+circle 390 365 2 black
+circle 410 365 2 black
+circle 400 380 3 black
+path 395 385 400 390 405 385 black

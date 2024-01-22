@@ -1,0 +1,47 @@
+Mon Jan 22 13:17:54 PST 2024
+Darwin Majids-MacBook-Air-5.local 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:59:33 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T8112 arm64
+uid=501(majidiqbal) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),701(com.apple.sharepoint.group.1),33(_appstore),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+Reading: rect
+Reading: circle
+Reading: rect
+Reading: rect
+Reading: rect
+Reading: rect
+Reading: circle
+Reading: circle
+Reading: line
+Reading: line
+Reading: line
+Reading: circle
+Reading: circle
+Reading: circle
+Reading: circle
+Reading: circle
+Reading: path
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+WARNING: clang-tidy not available.
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+WARNING: clang-format not available
+=====================================================
+5. No memory leaks using g++
+=====================================================
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+WARNING: valgrind not available
+Mon Jan 22 13:17:58 PST 2024
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
